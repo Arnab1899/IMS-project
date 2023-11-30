@@ -1,10 +1,10 @@
-##Inventory Management System 
+# Inventory Management System 
 
-##Introduction:
+## Introduction:
 
 This document provides a comprehensive guide for setting up and using the Inventory Management System, a CRUD (Create, Read, Update, Delete) project developed using Laravel and Blade, including an authentication system.
 
-##System Requirements:
+## System Requirements:
 
 PHP
 
@@ -16,15 +16,15 @@ Laravel Framework
 
 Web Server
 
-##Installation Steps:
+## Installation Steps:
 
-##Environment Setup:
+### Environment Setup:
 
 Ensure PHP, Composer, and a web server are installed on your computer.
 
 Set up a MySQL database for the application.
 
-##Application Setup:
+### Application Setup:
 
 Clone the repository: (git clone https://github.com/Arnab1899/IMS-project)
 
@@ -34,31 +34,31 @@ Install dependencies: (composer install)
 
 Copy the .env.example to .env and configure database settings.
 
-##Database Migration:
+### Database Migration:
 
 Run (php artisan migrate) to set up the database schema.
 
-##Server Configuration:
+### Server Configuration:
 
 Configure your web server to point to the public directory of the application.
 
 For development, you can use Laravel's built-in server: (php artisan serve)
 
-##Usage Guide
+# Usage Guide
 
-##Authentication
+# Authentication
 
 Access the application through the provided URL.
 
 Register a new user account or log in with existing credentials.
 
-##Dashboard
+# Dashboard
 
 Navigate through the application using the dashboard.
 
 Access different modules of the system.
 
-##CRUD Operations
+# CRUD Operations
 
 Create: Add new records using the 'Add Product’ in respective sections.
 
